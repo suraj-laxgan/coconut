@@ -31,7 +31,7 @@ class adminController extends Controller
         // ]);
         // dd('hi');
         $credentials = $request->validate([
-            'email_id' => ['required', 'email'],
+            'email' => ['required', 'email'],
             'password' => ['required'],
         ]);
 
